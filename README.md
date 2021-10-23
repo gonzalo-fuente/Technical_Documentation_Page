@@ -1,6 +1,8 @@
 # Technical_Documentation_Page
 Fully responsive Technical documentation page (freeCodeCamp fourth exercise)
 
+![sample image of web page](Technical.png)
+
 Fulfill the below user stories and get all of the tests to pass. Give it your own personal style.
 
 - User Story #1: I can see a main element with a corresponding id="main-doc", which contains the page's main content (technical documentation).
