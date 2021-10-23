@@ -1,5 +1,5 @@
 # Technical_Documentation_Page
-Fully responsive Tribute page (freeCodeCamp fourth exercise)
+Fully responsive Technical documentation page (freeCodeCamp fourth exercise)
 
 Fulfill the below user stories and get all of the tests to pass. Give it your own personal style.
 
