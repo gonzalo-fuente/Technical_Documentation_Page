@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+/* MAIN VARIABLES */
+
+:root {
+  --jet: #353535ff;
+  --ming: #3c6e71ff;
+  --white: #ffffffff;
+  --gainsboro: #d9d9d9ff;
+  --indigo-dye: #284b63ff;
+}
+
+/* BODY SECTION */
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: var(--gainsboro);
+}
+
+/* NAVBAR SECTION */
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  min-width: 340px;
+  padding: 40px 10px;
+  background-color: var(--ming);
+  color: var(--white);
+}
+
+#navbar a {
+  color: #000;
+  text-decoration: none;
+}
+
+#navbar li {
+  margin-bottom: 2rem;
+  list-style: none;
+}
+
+#navbar a {
+  color: inherit;
+  font-size: 1.5rem;
+}
+
+/* MAIN SECTION */
+
+#main-doc {
+  position: absolute;
+  margin-left: 380px;
+  margin-right: 3%;
+}
+
+header {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 2rem;
+  margin-bottom: 1.25rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+code {
+  display: block;
+  font-size: 1rem;
+  text-align: left;
+  line-height: 2;
+  color: var(--white);
+  background-color: var(--indigo-dye);
+  padding: 20px;
+  margin: 15px;
+  border-radius: 0.25rem;
+}
+
+/* MEDIA QUERIES SECTION */
+
+@media only screen and (max-width: 768px) {
+  #navbar {
+    position: relative;
+    height: auto;
+    width: auto;
+    padding: 1px 0;
+    margin: 0;
+  }
+
+  #navbar header {
+    text-align: center;
+    margin: 0.5rem 0;
+  }
+
+  #navbar li {
+    margin-bottom: 1rem;
+  }
+
+  #main-doc {
+    position: absolute;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+}
